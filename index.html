@@ -10,10 +10,22 @@
 <body>
     <div class="container">
         <header class="header"></header>
-        <section id="item-list">
-
+        <section id="item-list"></section>
+        <section id="bill-layout" class="bill-layout">
+            <div id="bill" class="bill">
+                <h3 class="bill-title">Your order</h3>
+                <div class="bill-item">
+                    <div id="item-name">Pizza</div>
+                    <button class="remove-btn">remove</button>
+                    <div id="item-price">$14</div>
+                </div>
+                <div class="total-bill">
+                    <div>Total price:</div>
+                    <div id="total-price">$14</div>
+                </div>
+                <button class="order-btn">Complete order</button>
+            </div>
         </section>
-
         <script src="index.js" type="module"></script>
     </div>
 </body>

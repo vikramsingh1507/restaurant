@@ -33,6 +33,8 @@ header {
     margin: 10px 10px auto auto;
     border-radius: 50%;
     border: none;
+    color: black;
+    background-color: #fff;
 }
 
 #item-emoji {
@@ -43,4 +45,48 @@ header {
 
 .typo p{
     color: #8B8B8B;
+}
+
+/* bill */
+
+.bill {
+    margin:40px 20px 0 20px;
+}
+
+.bill-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.bill div{
+    display: flex;
+    justify-content: left;
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#item-price, #total-price{
+    margin-left: auto;
+}
+
+.remove-btn {
+    border: 0;
+    background-color: #fff;
+    color: #BBBBBB;
+}
+
+.total-bill {
+    border-top: 2px solid grey;
+}
+
+.order-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #16DB99;
+    color: whitesmoke;
+    border: none;
+    border-radius: 2px;
+    font-weight: bolder;
 }
