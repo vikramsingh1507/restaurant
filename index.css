@@ -81,7 +81,7 @@ header {
     border-top: 2px solid grey;
 }
 
-.order-btn {
+.order-btn, .pay-btn {
     width: 100%;
     padding: 10px;
     background-color: #16DB99;
@@ -91,6 +91,42 @@ header {
     font-weight: bolder;
 }
 
+/* pop up window  */
+
+.payment-popup {
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow:  5px 5px 500px rgba(0, 0, 0, 0.3);
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    margin: auto;
+}
+
+.payment-popup input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid grey;
+
+}
+
+#pay-btn {
+    width: 100%;
+    padding: 15px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.popup-title {
+    text-align: center;
+    font-size: 36px;
+}
 
 /* hideen */
 

@@ -11,6 +11,8 @@
     <div class="container">
         <header class="header"></header>
         <section id="item-list"></section>
+
+
         <section id="bill-layout" class="bill-layout">
             <div id="bill" class="bill">
                 <h3 class="bill-title">Your order</h3>
@@ -24,6 +26,16 @@
                     <div id="total-price">$14</div>
                 </div>
                 <button class="order-btn">Complete order</button>
+            </div>
+        </section>
+
+        <section class="payment-popup-layout hidden">
+            <div class="payment-popup">
+                <h3 class="popup-title">Enter card details</h3>
+                <input type="text" placeholder="Enter your name">
+                <input type="number" placeholder="Enter card number" max="12">
+                <input type="number" placeholder="Enter cvv" max="6">
+                <button id="pay-btn" class="pay-btn">Pay</button>
             </div>
         </section>
         <script src="index.js" type="module"></script>
