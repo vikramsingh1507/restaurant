@@ -1,3 +1,46 @@
 body {
     margin: 0;
+    font-family: "Smythe", system-ui;
 } 
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+/* header  */
+
+header {
+    background-image: url('./Images/header.png');
+    background-size: cover;
+    height: 167px;
+}
+
+
+/* item dictionery */
+.main {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 2px solid grey;
+    margin:40px 20px 0 20px;
+}
+
+#btn {
+    background-image: url('Images/add-btn.png');
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px auto auto;
+    border-radius: 50%;
+    border: none;
+}
+
+#item-emoji {
+    font-size: 98px;
+    margin: 0;
+    padding: 0;
+}
+
+.typo p{
+    color: #8B8B8B;
+}
