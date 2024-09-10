@@ -12,25 +12,11 @@
         <header class="header"></header>
         <section id="item-list"></section>
 
-
-        <section id="bill-layout" class="bill-layout">
-            <div id="bill" class="bill">
-                <h3 class="bill-title">Your order</h3>
-                <div class="bill-item">
-                    <div id="item-name">Pizza</div>
-                    <button class="remove-btn">remove</button>
-                    <div id="item-price">$14</div>
-                </div>
-                <div class="total-bill">
-                    <div>Total price:</div>
-                    <div id="total-price">$14</div>
-                </div>
-                <button class="order-btn">Complete order</button>
-            </div>
-        </section>
+        <section id="bill-layout" class="bill-layout"></section>
 
         <section class="payment-popup-layout hidden">
             <div class="payment-popup">
+                <div role="button" id="close-btn" class="close-btn">X</div>
                 <h3 class="popup-title">Enter card details</h3>
                 <input type="text" placeholder="Enter your name">
                 <input type="number" placeholder="Enter card number" max="12">
@@ -38,6 +24,8 @@
                 <button id="pay-btn" class="pay-btn">Pay</button>
             </div>
         </section>
+
+        <footer class="footer hidden">Thank you ! Have a nice day🥳🥳</footer>
         <script src="index.js" type="module"></script>
     </div>
 </body>
