@@ -90,3 +90,10 @@ header {
     border-radius: 2px;
     font-weight: bolder;
 }
+
+
+/* hideen */
+
+.hidden {
+    display: none;
+}

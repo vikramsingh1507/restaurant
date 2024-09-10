@@ -17,7 +17,7 @@ function renderItemList(arr) {
                 <div class="typo">
                     <h3>${name}</h3>
                     <p>${ingredients}</p>
-                    <h4>${price}</h4>
+                    <h4>$${price}</h4>
                 </div>
                 <button id="add-btn"></button>
             </div>
